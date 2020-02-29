@@ -1,4 +1,4 @@
-Feature: API
+Feature: Candidate service Tests
 
   Background:
 
