@@ -9,7 +9,7 @@ Feature: Candidate service Tests
       | base | http://localhost:3000 |
     And I am using the default content type: "application/json"
 
-  Scenario: happy path get payments
+  Scenario: happy path get Candidate
     When I send a "GET" request to "{base}/candidates"
     Then receive status 200
 
