@@ -13,7 +13,7 @@ Feature: Candidate service Tests
     When I send a "GET" request to "{base}/candidates"
     Then receive status 200
 
-  Scenario: happy path getPaymentsById
+  Scenario: happy path get Candidate details by Id
 
     Given I set the placeholder 'id' using the json path '$.[0].id' from the last 'GET' to '{base}/candidates'
     When I send a "GET" request to "{base}/candidates/{id}"
