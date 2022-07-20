@@ -32,6 +32,6 @@
     "cucumber": "^6.0.3",
     "cucumber-html-reporter": "^5.1.0",
     "redoc-cli": "^0.9.2",
-    "terser": "^4.3.9"
+    "terser": "^4.8.1"
   }
 }
